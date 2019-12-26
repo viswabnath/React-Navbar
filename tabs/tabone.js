@@ -19,7 +19,7 @@ const tabone = () =>{
                 uri:
                   'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
               }}
-              showEditButton
+            // showEditButton
               onPress={() => console.log("Works!")}
             />
             <View>
@@ -58,13 +58,13 @@ const styles = StyleSheet.create({
     marginLeft:20,
     marginTop:15,
     textTransform:"uppercase",
-    color:"blue"
+    color:"black"
   },
   cardhead: {
     fontSize:25,
     marginLeft:20,
     textTransform:"uppercase",
-    color:"black"
+    color:"blue"
   }
   
   });

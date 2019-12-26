@@ -7,6 +7,7 @@ import React from "react";
 import { createAppContainer } from "react-navigation";
 import { createMaterialTopTabNavigator } from "react-navigation-tabs";
 import Icon from 'react-native-vector-icons/Ionicons';
+import { Badge } from 'react-native-elements'
 
   const tabs = createMaterialTopTabNavigator({
     Home: {
@@ -27,11 +28,11 @@ import Icon from 'react-native-vector-icons/Ionicons';
         )
       }
     },
-    Video: {
+    Recordings: {
       screen: tabthree,
       navigationOptions: {
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="logo-youtube" color={tintColor} size={28}></Icon>
+          <Icon name="ios-microphone" color={tintColor} size={28}></Icon>
         )
       }
     },
@@ -40,6 +41,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
       navigationOptions: {
         tabBarIcon: ({ tintColor }) => (
           <Icon name="ios-notifications" color={tintColor} size={28}></Icon>
+         
         )
       }
     },
